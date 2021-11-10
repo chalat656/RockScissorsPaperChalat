@@ -185,7 +185,7 @@ class _HomeNormalBotState extends State<HomeNormalBot> {
                           ),
                         ),
                         Image.asset(
-                          'assets/images/Brid.png',
+                          'assets/images/clipart1332451.png',
                           width: 150.0,
                           height: 150.0,
                         ),

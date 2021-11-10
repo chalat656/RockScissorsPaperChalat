@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "c1376ed390b69cb1185b32cb565b8255",
+  "assets/AssetManifest.json": "671b0121932ad7d96b75e5bd3ee4cdc2",
 "assets/assets/images/557726.png": "93b36b69fc0a7488f6d5b40bcc87a502",
 "assets/assets/images/A1.jpg": "55ed9ba912ac6504df6c84bdb1bab3fe",
 "assets/assets/images/BackG1.jpg": "4980d119f2550c49e30a95065d9ac5e7",
@@ -11,6 +11,7 @@ const RESOURCES = {
 "assets/assets/images/BGHardcore.jpg": "d69fcf7ed7eac38759f74cad83171673",
 "assets/assets/images/BGNormal.jpg": "83673a4e4425efcae541fac286869f2e",
 "assets/assets/images/Brid.png": "2143308a8052695ae9e0abcf8192b7e8",
+"assets/assets/images/clipart1332451.png": "ce433bd62b84ad36fa67e00562e1ee63",
 "assets/assets/images/Daco.png": "df039e1f245a4b9b71bd58eb3ab82417",
 "assets/assets/images/Dog.png": "6b741d1c0fc9cff648bc27a71f7643c0",
 "assets/assets/images/Easybot.png": "543c97b9371449d5f3cf86f3fee14071",
@@ -41,9 +42,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "11d1099a2e0918314eec1fb343e0a798",
-"/": "11d1099a2e0918314eec1fb343e0a798",
-"main.dart.js": "25f6cf27a924b5b69b29659ac39f57f5",
+"index.html": "963c6fe9769054c7adac6c23ac016939",
+"/": "963c6fe9769054c7adac6c23ac016939",
+"main.dart.js": "ca72c04fee941c43b4cacc632971aa5a",
 "manifest.json": "3ffd0eb1c219c58ad473c11346ee7ef8",
 "version.json": "0a236b2141bf565140bfa2d976b163be"
 };
