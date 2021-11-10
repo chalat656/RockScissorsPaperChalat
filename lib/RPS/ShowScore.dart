@@ -15,7 +15,7 @@ class _ShowScoreState extends State<ShowScore> {
     return Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('images/A1.jpg'),
+            image: AssetImage('assets/images/A1.jpg'),
             fit: BoxFit.cover,
           ),
         ),
@@ -23,7 +23,7 @@ class _ShowScoreState extends State<ShowScore> {
         setState(() {
           Navigator.pushReplacementNamed(context, HomeEasyBot.routeName);
         });
-      }, child: Image.asset('images/Rock.jpg',),
+      }, child: Image.asset('assets/images/Rock.jpg',),
       ),
     );
   }

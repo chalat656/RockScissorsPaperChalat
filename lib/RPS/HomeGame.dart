@@ -22,7 +22,7 @@ class _HomeGameState extends State<HomeGame> {
         constraints: BoxConstraints.expand(),
         decoration: BoxDecoration(
             image: DecorationImage(
-                image: AssetImage('images/BackG2.jpg'),
+                image: AssetImage('assets/images/BackG2.jpg'),
                 fit: BoxFit.cover)
         ),
         child: Column(

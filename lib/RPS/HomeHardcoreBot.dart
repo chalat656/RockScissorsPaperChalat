@@ -134,7 +134,7 @@ class _HomeHardcoreBotState extends State<HomeHardcoreBot> {
         constraints: BoxConstraints.expand(),
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('images/BGHardcore.jpg'),
+            image: AssetImage('assets/images/BGHardcore.jpg'),
             fit: BoxFit.cover,
           ),
         ),
@@ -185,7 +185,7 @@ class _HomeHardcoreBotState extends State<HomeHardcoreBot> {
                           ),
                         ),
                         Image.asset(
-                          'images/Daco.png',
+                          'assets/images/Daco.png',
                           width: 150.0,
                           height: 150.0,
                         ),
@@ -195,7 +195,7 @@ class _HomeHardcoreBotState extends State<HomeHardcoreBot> {
                   if (pUse == 0)
                     Container(
                       child: Image.asset(
-                        'images/pngegg.png',
+                        'assets/images/pngegg.png',
                         width: 150.0,
                         height: 150.0,
                       ),
@@ -203,61 +203,61 @@ class _HomeHardcoreBotState extends State<HomeHardcoreBot> {
                   else if (pUse == 1)
                     Row(
                       children: [
-                        Image.asset('images/Rock.jpg'),
+                        Image.asset('assets/images/Rock.jpg'),
                         Padding(
                           padding: const EdgeInsets.all(10.0),
                           child: Image.asset(
-                            'images/VS.png',
+                            'assets/images/VS.png',
                             width: 50.0,
                             height: 50.0,
                           ),
                         ),
                         if (BUSe == 1)
-                          Image.asset('images/Rock.jpg')
+                          Image.asset('assets/images/Rock.jpg')
                         else if (BUSe == 2)
-                          Image.asset('images/Scissors.jpg')
+                          Image.asset('assets/images/Scissors.jpg')
                         else if (BUSe == 3)
-                            Image.asset('images/Paper.jpg'),
+                            Image.asset('assets/images/Paper.jpg'),
                       ],
                     )
                   else if (pUse == 2)
                       Row(
                         children: [
-                          Image.asset('images/Scissors.jpg'),
+                          Image.asset('assets/images/Scissors.jpg'),
                           Padding(
                             padding: const EdgeInsets.all(10.0),
                             child: Image.asset(
-                              'images/VS.png',
+                              'assets/images/VS.png',
                               width: 50.0,
                               height: 50.0,
                             ),
                           ),
                           if (BUSe == 1)
-                            Image.asset('images/Rock.jpg')
+                            Image.asset('assets/images/Rock.jpg')
                           else if (BUSe == 2)
-                            Image.asset('images/Scissors.jpg')
+                            Image.asset('assets/images/Scissors.jpg')
                           else if (BUSe == 3)
-                              Image.asset('images/Paper.jpg'),
+                              Image.asset('assets/images/Paper.jpg'),
                         ],
                       )
                     else if (pUse == 3)
                         Row(
                           children: [
-                            Image.asset('images/Paper.jpg'),
+                            Image.asset('assets/images/Paper.jpg'),
                             Padding(
                               padding: const EdgeInsets.all(10.0),
                               child: Image.asset(
-                                'images/VS.png',
+                                'assets/images/VS.png',
                                 width: 50.0,
                                 height: 50.0,
                               ),
                             ),
                             if (BUSe == 1)
-                              Image.asset('images/Rock.jpg')
+                              Image.asset('assets/images/Rock.jpg')
                             else if (BUSe == 2)
-                              Image.asset('images/Scissors.jpg')
+                              Image.asset('assets/images/Scissors.jpg')
                             else if (BUSe == 3)
-                                Image.asset('images/Paper.jpg'),
+                                Image.asset('assets/images/Paper.jpg'),
                           ],
                         ),
                   Padding(
@@ -295,7 +295,7 @@ class _HomeHardcoreBotState extends State<HomeHardcoreBot> {
                           ),
                         ),
                         Image.asset(
-                          'images/HardcoreBot.jpeg',
+                          'assets/images/HardcoreBot.jpeg',
                           width: 150.0,
                           height: 150.0,
                         ),
@@ -314,7 +314,7 @@ class _HomeHardcoreBotState extends State<HomeHardcoreBot> {
                       height: 200.0,
                     ),
                     Image.asset(
-                      'images/GameOver.png',
+                      'assets/images/GameOver.png',
                       width: 200.0,
                       height: 200.0,
                     ),
@@ -329,7 +329,7 @@ class _HomeHardcoreBotState extends State<HomeHardcoreBot> {
                         });
                       },
                       child: Image.asset(
-                        'images/Try.png',
+                        'assets/images/Try.png',
                         width: 150.0,
                         height: 150.0,
                       ),
@@ -347,7 +347,7 @@ class _HomeHardcoreBotState extends State<HomeHardcoreBot> {
                         height: 200.0,
                       ),
                       Image.asset(
-                        'images/Win.png',
+                        'assets/images/Win.png',
                         width: 200.0,
                         height: 200.0,
                       ),
@@ -362,7 +362,7 @@ class _HomeHardcoreBotState extends State<HomeHardcoreBot> {
                           });
                         },
                         child: Image.asset(
-                          'images/Try.png',
+                          'assets/images/Try.png',
                           width: 150.0,
                           height: 150.0,
                         ),
@@ -382,7 +382,7 @@ class _HomeHardcoreBotState extends State<HomeHardcoreBot> {
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
                         image: DecorationImage(
-                            image: AssetImage('images/Rock.jpg'),
+                            image: AssetImage('assets/images/Rock.jpg'),
                             fit: BoxFit.cover),
                       ),
                     ),
@@ -395,7 +395,7 @@ class _HomeHardcoreBotState extends State<HomeHardcoreBot> {
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
                         image: DecorationImage(
-                            image: AssetImage('images/Scissors.jpg'),
+                            image: AssetImage('assets/images/Scissors.jpg'),
                             fit: BoxFit.cover),
                       ),
                     ),
@@ -408,7 +408,7 @@ class _HomeHardcoreBotState extends State<HomeHardcoreBot> {
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
                         image: DecorationImage(
-                            image: AssetImage('images/Paper.jpg'),
+                            image: AssetImage('assets/images/Paper.jpg'),
                             fit: BoxFit.cover),
                       ),
                     ),
@@ -421,7 +421,7 @@ class _HomeHardcoreBotState extends State<HomeHardcoreBot> {
                       });
                     },
                     child: Image.asset(
-                      'images/Go-back-icon.png',
+                      'assets/images/Go-back-icon.png',
                       height: 50.0,
                       width: 50.0,
                     ),
