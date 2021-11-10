@@ -243,7 +243,7 @@ class _HomeEasyBotState extends State<HomeEasyBot> {
                         Padding(
                           padding: const EdgeInsets.all(10.0),
                           child: Image.asset(
-                            'images/VS.png',
+                            'assets/images/VS.png',
                             width: 50.0,
                             height: 50.0,
                           ),

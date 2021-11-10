@@ -50160,7 +50160,7 @@ V.kq.prototype={
 aH(){return new V.F7(C.n)}}
 V.F7.prototype={
 qp(a){this.af(new V.YV(this,a))},
-N(a,b){var s,r,q,p,o,n=this,m=null,l="assets/images/Rock.jpg",k="assets/images/Scissors.jpg",j="assets/images/Paper.jpg",i="assets/images/VS.png",h="assets/images/Try.png",g=E.Kr(L.e0("Rock Paper Scissors With EZBOT",m,m,m)),f=S.KT(),e=X.dJ(C.a3,new L.cD("assets/images/BackG1.jpg",m,m)),d=t.p,c=H.a([],d)
+N(a,b){var s,r,q,p,o,n=this,m=null,l="assets/images/Rock.jpg",k="assets/images/VS.png",j="assets/images/Scissors.jpg",i="assets/images/Paper.jpg",h="assets/images/Try.png",g=E.Kr(L.e0("Rock Paper Scissors With EZBOT",m,m,m)),f=S.KT(),e=X.dJ(C.a3,new L.cD("assets/images/BackG1.jpg",m,m)),d=t.p,c=H.a([],d)
 if(!n.dy&&!n.fr)c.push(M.b3(m,m,m,m,m,100,m,m,m))
 s=n.dy
 if(!s&&!n.fr){s=L.e0("Player",B.iA(C.l,20),m,m)
@@ -50171,21 +50171,21 @@ else q.push(new L.cQ(C.bM,25,C.bU,m))
 s=H.a([new T.bt(C.eU,T.dl(H.a([s,r,new T.bt(C.bF,T.co(q,C.o,C.D,C.E),m),U.ab("assets/images/Brid.png",150,150)],d),C.o,C.D),m)],d)
 r=n.db
 if(r===0)s.push(M.b3(m,U.ab("assets/images/pngegg.png",150,150),m,m,m,m,m,m,m))
-else if(r===1){r=H.a([U.ab(l,m,m),new T.bt(C.aO,U.ab("images/VS.png",50,50),m)],d)
+else if(r===1){r=H.a([U.ab(l,m,m),new T.bt(C.aO,U.ab(k,50,50),m)],d)
 q=n.dx
 if(q===1)r.push(U.ab(l,m,m))
-else if(q===2)r.push(U.ab(k,m,m))
-else if(q===3)r.push(U.ab(j,m,m))
-s.push(T.co(r,C.o,C.D,C.E))}else if(r===2){r=H.a([U.ab(k,m,m),new T.bt(C.aO,U.ab(i,50,50),m)],d)
+else if(q===2)r.push(U.ab(j,m,m))
+else if(q===3)r.push(U.ab(i,m,m))
+s.push(T.co(r,C.o,C.D,C.E))}else if(r===2){r=H.a([U.ab(j,m,m),new T.bt(C.aO,U.ab(k,50,50),m)],d)
 q=n.dx
 if(q===1)r.push(U.ab(l,m,m))
-else if(q===2)r.push(U.ab(k,m,m))
-else if(q===3)r.push(U.ab(j,m,m))
-s.push(T.co(r,C.o,C.D,C.E))}else if(r===3){r=H.a([U.ab(j,m,m),new T.bt(C.aO,U.ab(i,50,50),m)],d)
+else if(q===2)r.push(U.ab(j,m,m))
+else if(q===3)r.push(U.ab(i,m,m))
+s.push(T.co(r,C.o,C.D,C.E))}else if(r===3){r=H.a([U.ab(i,m,m),new T.bt(C.aO,U.ab(k,50,50),m)],d)
 q=n.dx
 if(q===1)r.push(U.ab(l,m,m))
-else if(q===2)r.push(U.ab(k,m,m))
-else if(q===3)r.push(U.ab(j,m,m))
+else if(q===2)r.push(U.ab(j,m,m))
+else if(q===3)r.push(U.ab(i,m,m))
 s.push(T.co(r,C.o,C.D,C.E))}r=L.e0("EZ BOT",B.iA(C.l,20),m,m)
 q=L.mv(C.bK,C.aF,40)
 o=H.a([],d)
@@ -50194,7 +50194,7 @@ else o.push(new L.cQ(C.bM,25,C.bU,m))
 s.push(new T.bt(C.eW,T.dl(H.a([r,q,new T.bt(C.bF,T.co(o,C.o,C.D,C.E),m),U.ab("assets/images/Ezbot.png",150,150)],d),C.o,C.D),m))
 c.push(T.co(s,C.o,C.ad,C.E))}else if(s)c.push(M.b3(m,T.dl(H.a([M.b3(m,m,m,m,m,200,m,m,m),U.ab("assets/images/GameOver.png",200,200),U.cT(U.ab(h,150,150),new V.YZ(n))],d),C.o,C.ad),m,m,m,m,m,m,m))
 else if(n.fr)c.push(M.b3(m,T.dl(H.a([M.b3(m,m,m,m,m,200,m,m,m),U.ab("assets/images/Win.png",200,200),U.cT(U.ab(h,150,150),new V.Z_(n))],d),C.o,C.ad),m,m,m,m,m,m,m))
-if(!n.dy&&!n.fr)c.push(T.co(H.a([U.cT(M.b3(m,m,m,m,new S.c3(m,X.dJ(C.a3,new L.cD(l,m,m)),m,m,m,m,C.W),120,m,m,120),new V.Z0(n)),U.cT(M.b3(m,m,m,m,new S.c3(m,X.dJ(C.a3,new L.cD(k,m,m)),m,m,m,m,C.W),120,m,m,120),new V.Z1(n)),U.cT(M.b3(m,m,m,m,new S.c3(m,X.dJ(C.a3,new L.cD(j,m,m)),m,m,m,m,C.W),120,m,m,120),new V.Z2(n)),U.cT(U.ab("assets/images/Go-back-icon.png",50,50),new V.Z3(n,b))],d),C.o,C.ad,C.E))
+if(!n.dy&&!n.fr)c.push(T.co(H.a([U.cT(M.b3(m,m,m,m,new S.c3(m,X.dJ(C.a3,new L.cD(l,m,m)),m,m,m,m,C.W),120,m,m,120),new V.Z0(n)),U.cT(M.b3(m,m,m,m,new S.c3(m,X.dJ(C.a3,new L.cD(j,m,m)),m,m,m,m,C.W),120,m,m,120),new V.Z1(n)),U.cT(M.b3(m,m,m,m,new S.c3(m,X.dJ(C.a3,new L.cD(i,m,m)),m,m,m,m,C.W),120,m,m,120),new V.Z2(n)),U.cT(U.ab("assets/images/Go-back-icon.png",50,50),new V.Z3(n,b))],d),C.o,C.ad,C.E))
 else c.push(M.b3(m,m,m,m,m,m,m,m,m))
 return M.Tl(g,M.b3(m,T.dl(c,C.o,C.dO),m,f,new S.c3(m,e,m,m,m,m,C.Q),m,m,m,m))}}
 V.YV.prototype={
