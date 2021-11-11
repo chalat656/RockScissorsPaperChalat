@@ -50262,7 +50262,7 @@ $S:0}
 F.kr.prototype={
 aH(){return new F.F8(C.n)}}
 F.F8.prototype={
-N(a,b){var s,r,q=null,p=E.Kr(L.e0("GameHome",q,q,q)),o=S.KT(),n=X.dJ(C.a_,new L.cD("assets/images/BackG2.jpg",q,q)),m=U.aa("images/RSPLOGO.png",C.a_,250,250),l=D.MV(q,q,q,q,q,q,q,q,q,q,q,C.dQ,q,q,q,q,q,q,q)
+N(a,b){var s,r,q=null,p=E.Kr(L.e0("GameHome",q,q,q)),o=S.KT(),n=X.dJ(C.a_,new L.cD("assets/images/BackG2.jpg",q,q)),m=U.aa("assets/images/RSPLOGO.png",C.a_,250,250),l=D.MV(q,q,q,q,q,q,q,q,q,q,q,C.dQ,q,q,q,q,q,q,q)
 l=D.a3s(L.e0("Easy Bot",B.iA(q,25),q,q),new F.Z7(this,b),l)
 s=D.MV(q,q,q,q,q,q,q,q,q,q,q,C.fx,q,q,q,q,q,q,q)
 s=D.a3s(L.e0("Normal Bot",B.iA(q,25),q,q),new F.Z8(this,b),s)
