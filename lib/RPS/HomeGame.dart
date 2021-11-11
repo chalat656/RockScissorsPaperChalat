@@ -28,6 +28,7 @@ class _HomeGameState extends State<HomeGame> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
+            Image.asset('assets/images/RSPLOGO.png',width: 250.0,height: 250.0,fit: BoxFit.cover,),
             ElevatedButton(
               onPressed: () {
                 setState(() {

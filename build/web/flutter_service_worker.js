@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "671b0121932ad7d96b75e5bd3ee4cdc2",
+  "assets/AssetManifest.json": "ae40b9ec5cf1c242b8032265468158e7",
 "assets/assets/images/557726.png": "93b36b69fc0a7488f6d5b40bcc87a502",
 "assets/assets/images/A1.jpg": "55ed9ba912ac6504df6c84bdb1bab3fe",
 "assets/assets/images/BackG1.jpg": "4980d119f2550c49e30a95065d9ac5e7",
@@ -29,6 +29,7 @@ const RESOURCES = {
 "assets/assets/images/player.png": "e50ec821df4537312b27451d93dc417c",
 "assets/assets/images/pngegg.png": "2d4eeb9bde1ac0754883e62f52661ab7",
 "assets/assets/images/Rock.jpg": "34ee9c0307dac6bed99e1bd9caaaa05b",
+"assets/assets/images/RSPLOGO.png": "535ebbb24182e96076f346b2039c430b",
 "assets/assets/images/Scissors.jpg": "231ae6fb9aab416bfe6b464de9eabbca",
 "assets/assets/images/Try.png": "a0a041476de8fa00f4d880b0d0da5e55",
 "assets/assets/images/VS.png": "6d9be82cde3a2b00eb0a78a82b9f58e7",
@@ -42,9 +43,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "963c6fe9769054c7adac6c23ac016939",
-"/": "963c6fe9769054c7adac6c23ac016939",
-"main.dart.js": "ca72c04fee941c43b4cacc632971aa5a",
+"index.html": "fb60fc5b445faa10e07b4d66f3847868",
+"/": "fb60fc5b445faa10e07b4d66f3847868",
+"main.dart.js": "f9843b67371dbc925ef115b0658391c9",
 "manifest.json": "3ffd0eb1c219c58ad473c11346ee7ef8",
 "version.json": "0a236b2141bf565140bfa2d976b163be"
 };
